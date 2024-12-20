@@ -1,4 +1,4 @@
-# Module 1 Challenge SA
+# The Semantic Way - HTML
 
 ## Overview
 A company wants to design a page and wants it to look good. Some adjustments were made so that it will meet the requirements and satisfaction of the client.
