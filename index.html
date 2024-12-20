@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <!-- Company name and nav bar -->
     <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
@@ -24,8 +25,39 @@
             </ul>
         </nav>
     </header>
+    <!-- Adding style for nav bar so it doesn't go below company name -->
+    <style>
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    .header h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-left: 20px;
+    }
+    
+    nav ul li:first-child {
+        margin-left: 0;
+    }
+    </style>
+    
     <section class="hero"><section>
     <main class="content">
+        <!-- Creating Sections -->
         <section class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt='image' class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -49,6 +81,7 @@
         </section>
     </main>
     <aside class="benefits">
+        <!-- Creating aside sections -->
         <section class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt='image' />
@@ -71,6 +104,7 @@
             </p>
         </section>
     </aside>
+    <!-- Footer section -->
     <footer class="footer">
           
     </footer>
